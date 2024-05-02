@@ -8,11 +8,11 @@ const server = http.createServer(app);
 const io = socket(server);
 
 const db = mysql.createConnection({
-    host: 'db',
-    user: 'root',
-    password: 'root_password',
-    database: 'chat',
-    port: 3306,
+    host: '...',
+    user: '...',
+    password: '...',
+    database: '...',
+    port: ...,
 });
 
 db.connect((err) => {
